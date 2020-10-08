@@ -1,0 +1,10 @@
+{
+  "mikedomain1/miketest/random2": {
+    "hash": "h1:UfgaFX7jpQrPzzL8sBYMGsz5tnxGRI680PqcpUZWtfI=",
+    "version": "2.3.0"
+  },
+  "registry.terraform.io/miketest/random2": {
+    "hash": "h1:UfgaFX7jpQrPzzL8sBYMGsz5tnxGRI680PqcpUZWtfI=",
+    "version": "2.3.0"
+  }
+}
