@@ -1,1 +1,6 @@
-{}
+{
+  "registry.terraform.io/miketest/random2": {
+    "hash": "h1:UfgaFX7jpQrPzzL8sBYMGsz5tnxGRI680PqcpUZWtfI=",
+    "version": "2.3.0"
+  }
+}
