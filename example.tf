@@ -12,7 +12,7 @@ terraform {
 
 resource "random_shuffle2" "app-foos" {
   provider     = randomtest
-  input        = ["foo1", "foo2", "foo3", "foo4", "foo5"]
+  input        = ["foo1", "foo2", "foo3", "foo4", "fooX"]
   result_count = 1
 }
 
