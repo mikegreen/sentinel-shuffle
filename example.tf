@@ -19,12 +19,3 @@ resource "random_shuffle2" "app-foos" {
 output "shuffled_value" {
   value = random_shuffle2.app-foos
 }
-
-# // this should pass - using APP tier
-# resource "aws_instance" "app-shuffled" {
-#   instance_type = "t2.nano"
-
-#   subnet_id = "${random_shuffle.app-subnets.result[0]}"
-#   tags      = "${merge(map("Name", "test-CLOUD-1131-app"), module.hulu.tags)}"
-# }
-
