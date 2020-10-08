@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     randomtest = {
-      source = "mikedomain/miketest/random2"
+      source = "miketest/random2"
     }
   }
 }
