@@ -1,0 +1,19 @@
+// import "tfconfig"
+// import "tfstate"
+import "tfplan/v2" as tfplan
+
+import "strings"
+import "types"
+
+// check for applied subnet info
+possible_subnet = r.applied[subnet_var] else ""
+print("shuffled_value result:", shuffled_value.result)
+
+// check if computed
+if r.diff[possible_subnet].computed {
+	print("possible_subnet is computed")
+} else {
+	print("possible_subnet is not computed")
+}
+
+main = rule { has_official_hulu_module and not uses_restricted_subnets }
